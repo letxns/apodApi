@@ -49,12 +49,10 @@
 }
 
 #header{
-    background-image: url(/assets/sky.jpg);
-    color:rgba(240, 248, 255, 0.815);
     display: flex;
     text-align: center;
     justify-content: space-between;
-    padding: 1%;
+    padding: 2%;
     box-shadow: 3px 1px 5px black;
 }
 
@@ -141,6 +139,7 @@
 }
 
 @media (max-width: 768px) {
+
     #form{
         display: flex;
         flex-direction: column;
@@ -154,6 +153,23 @@
     .input-form{
         width: 100%;
     }
+
+    .media{
+        width: 80%;
+        height: auto;
+        align-self: center;
+    }
+    
+    .text{
+        padding: 2%;
+        text-align: start;
+    }
+    
+    .title{
+        padding: 2%;
+        font-family: 'Raleway', sans-serif;
+        font-size: 2em;
+    }
 }
 
 @media (max-width: 425px) {
@@ -161,4 +177,9 @@
         align-self: center;
         padding: 1.6%;
     }
+
+    #header{
+        flex-direction: column;
+    }
+    
 }
