@@ -4,25 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ccbcc27dc6.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Archivo+Black&family=Barlow:wght@100&family=Cardo:wght@400;700&family=Comfortaa:wght@700&family=Fira+Sans:wght@300&family=IBM+Plex+Sans+Arabic:wght@700&family=IBM+Plex+Sans+KR:wght@300;700&family=Indie+Flower&family=Lato:wght@300;400;900&family=Open+Sans:wght@600&family=Raleway:wght@600&family=Roboto&family=Square+Peg&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Nasa Apod API</title>
 </head>
 <body>
     <header id="header">
-        <h1><a href="#" class="apod">APOD </a></h1><h1> - ASTRONOMY PICTURE OF THE DAY</h1>
+        <h1><a href="index.html" class="apod">APOD </a> - ASTRONOMY PICTURE OF THE DAY</h1> 
+        <div id="header-icons">
+            <a href="https://github.com/letxns" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/leticia-smartins/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
     </header>
     <section>
-        <form id="form">
-            <label>Escolha uma data:</label><br>
-            <div class="input-form">
-                <input type="date" class="input-date">
-                <button id="button-send" onclick="send()">Enviar</button>
-            </div>
-        </form>
+        <h1 class="title"></h1>
+        <div id="sky">
+            <img class="media" src=""/>
+            <p class="text"></p>
+        </div>
     </section>
+    <main>
+        <form id="form">
+            <h3>Choose a date:</h3><br>
+            <div class="input-form">
+                <input type="date" id="input-date">
+                <button id="button-send">SEND</button>
+            </div><br>
+            <h3>or</h3><br>
+            <button id="today-sky">SEE THE SKY TONIGHT</button>
+        </form>
+    </main>
     <footer id="footer">
-        <h3>Desenvolvido por <a href="https://github.com/letxns">Leticia Martins</a></h3>
+        <h3>Developed by <a href="https://github.com/letxns">Leticia Martins</a></h3>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
