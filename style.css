@@ -19,7 +19,7 @@
 
 #button-send:hover, #today-sky:hover{
     cursor: pointer;
-    background-color: rgba(99, 9, 93, 0.815);
+    background-color: rgba(99, 9, 93, 0.884);
 }
 
 #footer{
@@ -67,7 +67,7 @@
 
 #header-icons a:hover{
     text-decoration: none;
-    color: rgba(99, 24, 93, 0.836);
+    color: rgb(127, 9, 182);
 }
 
 #footer, #form, #header, #input-date, #button-send, #today-sky{
@@ -104,13 +104,13 @@
 
 
 .apod{
-    color: rgb(127, 9, 182);
+    color: rgb(145, 149, 182);
     text-decoration: none;
     font-weight: bolder;
 }
 
 .apod:hover{
-    color: rgb(99, 24, 93);
+    color: rgb(127, 9, 182);
 }
 
 .input-form{
