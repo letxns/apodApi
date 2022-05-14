@@ -10,9 +10,9 @@ Você pode acessá-lo [aqui](https://letxns.github.io/apodApi/).
 
 # Softwares & Ferramentas utilizadas nesse projeto 📚
 
-• Consumo da API APOD - Astronomy Picture of the Day
-• CSS3
-• Git
-• HTML5
-• JavaScript
-• JQuery
+• Consumo da API APOD - Astronomy Picture of the Day <br>
+• CSS3 <br>
+• Git <br>
+• HTML5 <br>
+• JavaScript <br>
+• JQuery <br>
