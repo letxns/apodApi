@@ -1,5 +1,5 @@
 $("#button-send").click(function(e){
-    e.preventDefault()
+    e.preventDefault();
     const date = $("#input-date").val();
     const key = "twas7PMQufH9W9FyyNvT7bpGCEQ29cx4gt2XNoTZ";
     $.ajax({
@@ -29,6 +29,7 @@ $("#today-sky").click(function(e){
         url: `https://api.nasa.gov/planetary/apod?api_key=${key}`,
         type: "GET",
         success: function(result){
+            const media = $(".media");  
             console.log(result);  
             $(".title").text(result.title);
             $(".author").html(`<strong>Author:</strong> ${result.copyright}`);
